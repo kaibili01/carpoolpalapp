@@ -1,0 +1,130 @@
+.list-overflow-container {
+  margin: auto;
+  max-height: 575px;
+  max-width: 600px;
+  border: 3px solid rgb(14, 11, 11);
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #f3e7e3;
+  text-align: left;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+  
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: rgb(25, 5, 133);
+
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+  
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+  background-color:#6ce9ff;
+  height: 200px;
+  width: 500px;
+  float: left;
+}
+
+.list-group-item {
+  background-color:#6ce9ff;
+  font-family: 'Baloo Chettan', cursive; 
+  font-style: initial;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+.driver-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 44px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}
+
+.rider-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}
+
+i {
+  color: white;
+}
+
+.destination {
+  color: black;
+}
+.like {
+  background-color: #fdc661;
+  border-radius: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.spotifyLogin {
+  color: orange;
+  background-color: black;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.checkNowPlaying{
+  color: orange;
+  background-color: black;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.checkMyCurrentPlayLists{
+  color: orange;
+  background-color: black;
+  text-align: center;
+  margin-left: 30%;
+  font-family: 'Baloo Chettan', cursive; 
+}
+
+
+.nowPlayingTitle {
+  text-align: center;
+}
+
+.nowPlayingImage {
+  text-align: center;
+}
+
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap');
+
+.wrapper {    
+    background: #020000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #81817f,#020000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #81817f, #020000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 40px;   
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;    font-weight: 900;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.driver-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+}
+
+.rider-btn {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+}
