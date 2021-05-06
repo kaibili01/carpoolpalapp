@@ -7,7 +7,7 @@
     "cookie": "^0.4.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "mongoose": "^5.9.9",
     "package-lock.json": "^1.0.0",
     "package.json": "^2.0.1",
